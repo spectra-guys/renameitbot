@@ -1,19 +1,23 @@
 class Translation(object):
-    START_TEXT = """Hey Buddy,
+    START_TEXT = """<b>Hey Buddy<b>,
 This Bot Change Your File Name for You!! 😁
 
 <b>Please send/forward me any Telegram file and reply to that file with /rename moviename .mkv</b>
 
-Please support bot developer @The_Bot_Gram
+<i>Please support bot developer<i> @The_Bot_Gram
 
-Our Bot is 100% ad-free.if possible please donate us https://www.buymeacoffee.com/abhinand this would help us alot!!
+<b>Our Bot is 100% ad-free.
+if possible please donate us 
+https://www.buymeacoffee.com/abhinand 
+this would help us alot!!<b>
+
 /help to discover more thing...
  """
     RENAME_403_ERR = "Sorry. You are not permitted to use the bot admin's file"
     ABS_TEXT = " Don't be selfish"
     UPGRADE_TEXT = "Simply There is No Way to Upgrade me🤪.Patience is Key to Your Success in Life"
-    DOWNLOAD_START = "trying to download"
-    UPLOAD_START = "trying to upload"
+    DOWNLOAD_START = "Getting files to my Server"
+    UPLOAD_START = "Senting files to you"
     RCHD_TG_API_LIMIT = "Got Your Files in {} seconds.\nFound the File Size: {}\nSorry. But Make Sure The File is lesser than this😨😰"
     AFTER_SUCCESSFUL_UPLOAD_MSG = "**I Think You Got the File 😍🥰😘. Follow Us @The_Bot_Gram**"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Got Your File in our Server in {} seconds.\nSent to you in {} seconds."
